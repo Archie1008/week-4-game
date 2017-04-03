@@ -5,12 +5,12 @@ html body {
 	margin: auto;
 }
 
-.wrapper {
+.wrapper {  /* Whole content wrapper */
 	width: 700px;
 	margin:50px auto;
 }
 
-#main_number {
+#main_number {  /* Random number */
 	float:left;
 	width: 231px;
 	height: 20px;
@@ -41,7 +41,7 @@ p {
 	color: #FF8E16;
 }
 
-button {
+button {  /*Crystal buttons */
 	padding: 0;
 	border:none;
 	height: 115px;
@@ -56,12 +56,17 @@ button {
 	width: 473px;
 }
 
-.container1 {
+
+
+
+.container1 {  /* game instructions div */
 	padding: 20px;
 	width: 433px;
 }
 
-.container2 {
+
+
+.container2 {  /* Random number , wins and losses div */
 	background-color:transparent;
 	padding: 0;
 	clear: both;
@@ -70,11 +75,11 @@ button {
 	font-weight: bolder;
 }
 
-.container3 {
+.container3 {  /* Buttons with crystals div */
 	margin: 0 100px;
 }
 
-.clearfix {
+.clearfix {  /* To clear float */
 	clear: both;
 }
 
