@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystals game</title>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<link rel = "stylesheet" type = "text/css" href = "assets/css/reset.css">
+	<link rel = "stylesheet" type = "text/css" href = "assets/css/style.css">
+
+</head>
+<body>
+
+<div class="wrapper">
+
+
+	<div class="container">
+		<h1>Crystals selector</h1>
+	</div>
+
+
+	<div class="container1">
+
+		
+		<p>You will be given a random number at the start of the game.</p>
+		
+		<br>
+
+		<p>There are 4 crystals below. By clicking on crystal you will add a specific amount of points to your total score.</p>
+
+		<br>
+
+		<p>If your total score match random number, you win . If it goes above random number, you lose.</p>
+
+	</div>
+
+	<div class="container2">
+		<div id="main_number">Random number:</div>
+
+		<div class="winslosses">
+			<p id="wins">Wins: 0</p>
+
+			<br>
+
+			<p id="losses">Losses: 0</p>
+		</div>
+		
+		<div class="clearfix"></div>
+
+	</div>
+
+
+
+	<div class="container3">
+		<button id="cr1"><img src="assets/images/crystal1.png" width="115" height="115" alt="Crystal 1"></button>
+		<button id="cr2"><img src="assets/images/crystal2.png" width="115" height="115" alt="Crystal 2"></button>
+		<button id="cr3"><img src="assets/images/crystal3.png" width="115" height="115" alt="Crystal 3"></button>
+		<button id="cr4"><img src="assets/images/crystal4.png" width="115" height="115" alt="Crystal 4"></button>
+	</div>
+
+	<div class="container4">
+		<p id="total-score">Your total score: 0</p>
+	</div>
+
+</div>
+
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>
